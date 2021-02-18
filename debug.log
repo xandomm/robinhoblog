@@ -1,0 +1,2 @@
+[1013/172256.887:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1117/164124.673:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

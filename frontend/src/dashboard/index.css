@@ -1,0 +1,75 @@
+body{
+    background-color: white !important; 
+}
+
+#root{
+    background-color:white !important;
+}
+.toast-box{
+    display: flex;
+}
+
+
+a:link{
+    text-decoration: none !important;
+  }
+
+  
+.icons{
+    color:black[];
+}
+.tox.tox-silver-sink.tox-tinymce-aux {
+    margin-right: -500px;
+
+}
+    
+.container{
+    padding-left: 30px !important;
+    padding-top: 10px;
+}
+
+.MuiPaper-root{
+    background-color: white !important;
+}
+
+.MuiToolbar-regular{
+    background-color:#4bc0c0 !important;
+}
+
+.toast{
+    margin-left:40px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-bottom:100px;
+    align-items: center;
+}
+
+
+#sticky-footer {
+    flex-shrink: none;
+
+  }
+
+#addProduct {
+    margin-right: 5px;
+}
+
+#produtoSubmit {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background-color:#4bc0c0 !important;
+}
+
+#detalhes, .btn-color {
+    background-color:#4bc0c0 !important;
+}
+
+.buttonsProduct{
+    margin-bottom: 10px;
+} 
+@media(min-width: 600px){
+.concertandobugs{
+    margin-left: 240px;
+}}

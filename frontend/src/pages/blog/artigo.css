@@ -1,0 +1,26 @@
+.tituloesub{
+    
+  width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: -50px;
+    font-family: 'Bebas Neue', cursive;}
+    .bg-azuli{
+        color: #6c757d;
+      
+    }
+    .geral{
+        background-color: #B8DCEC
+    }
+    .txtArtigo{
+        color: #6c757d;
+        font-size: 15pt;
+    }
+    .txtArtigo h1{
+        font-size: 30pt;
+    }
+    .txtArtigo h4{
+
+        font-size: 30pt;
+    }

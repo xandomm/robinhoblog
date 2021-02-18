@@ -1,0 +1,19 @@
+.ImgArtigo{
+    width: 100%;
+}
+
+
+
+@media(max-width: 600px){
+   .ImgArtigo{
+       max-height: 200px;
+       overflow: hidden;
+       object-fit: cover;
+   }
+}
+@media(min-width: 600px){
+    .ImgArtigo{
+        max-height: 300px;
+        object-fit: cover;
+    }
+ }

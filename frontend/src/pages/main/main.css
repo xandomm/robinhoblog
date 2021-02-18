@@ -1,0 +1,123 @@
+.apresentacao{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.mediaSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+.butao{
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px 10px 0 10px;
+padding-top: 10px;
+}
+@media(min-width: 800px){
+    .primeiralogo{
+        display: flex;
+    
+        width: 50%;
+
+    }
+    .alinhar {
+        background-color: black;
+       
+    }
+    .primeiralogo img{
+        display: flex;
+   
+        max-width:600px;
+        height:auto;
+      
+        margin-left: 50px;
+
+        overflow: hidden;
+        flex-grow: 1
+    }
+    .segundalogo{
+        display: flex;
+        width: 50%;
+        flex-grow:1;
+        margin-left: 10px;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+    .segundalogo h1{ 
+        color: purple;
+        margin-left: 20px;
+        font-weight: 600;
+        text-align: start;
+        letter-spacing:2px
+  
+    }
+    .segundalogo Paper{ padding: 20px ;
+      margin-right: 20px;
+  
+    }
+    .segundalogo p{ padding: 20px ;
+        color: #fff;
+        font-size: 20pt;
+    }
+    .apresentacao{
+        height: 600px;
+    }
+}
+@media(max-width: 800px){
+    .primeiralogo{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .apresentacao{
+        flex-direction: column;
+    }
+    .primeiralogo img{
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+     
+    }  .segundalogo{
+        display: flex;
+
+      justify-content: center;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+     
+    }
+    .segundalogo h1{ 
+  
+        font-weight: 600;
+     
+  
+    }
+  
+    .segundalogo p{ padding: 20px ;
+        color: #fff;
+        font-size: 20pt;
+    }
+}
+.glow {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+    }
+  }

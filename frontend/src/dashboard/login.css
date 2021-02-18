@@ -1,0 +1,20 @@
+html { height: 100%; }
+body { height: 100%; 
+    display: flex; 
+
+    }
+
+#root {
+    background-color: lightgray;
+}
+
+body > div { flex: 1; }
+
+#loginBox {
+    border-radius: 25px;
+    background-color:lightgray!important;
+}
+
+#login {
+    background-color: #4bc0c0;
+}

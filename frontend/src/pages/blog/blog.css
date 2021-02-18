@@ -1,0 +1,18 @@
+.cardname{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        align-items: stretch;
+        align-content: space-around;
+        background-color: black;
+}
+#music{
+    display: none;
+}
+#TitleCard{
+    text-align: center;
+}
+.cardname .Card{
+    min-width: 3000000px;
+}

@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(34, 33, 33) !important; 
+}
+
+#root{
+    color:rgb(34, 33, 33);
+}
+.toast-box{
+    display: flex;
+}
+
+
+a:link{
+    text-decoration: none !important;
+  }
+
+h1,h2,h3,h4,h5,th,p,tr,small,.navText{
+    color:white !important
+} 
+  
+.icons{
+    color:white;
+}
+
+.container{
+    padding:10px;
+}
+
+.MuiPaper-root{
+    background-color: rgb(34, 33, 33) !important;
+}
+
+.MuiToolbar-regular{
+    background-color:#4bc0c0 !important;
+}
+
+.toast{
+    margin-left:40px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-bottom:100px;
+    align-items: center;
+}
+.navbar{
+    background-color: grey;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+
+  }
+
+#addProduct {
+    margin-right: 5px;
+}
+
+#produtoSubmit {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background-color:#4bc0c0 !important;
+}
+
+#detalhes, .btn-color {
+    background-color:#4bc0c0 !important;
+}
+
+.buttonsProduct{
+    margin-bottom: 10px;
+}
