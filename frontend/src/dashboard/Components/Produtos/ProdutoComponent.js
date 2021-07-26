@@ -9,7 +9,7 @@ class ProdutoComponent extends React.Component {
                    <tr>
                         <th>{this.props.id}</th>
                         <td>{this.props.nome}</td>
-                        <td>R$ {this.props.valor}</td>
+               
                         <td>< Button tag = {Link} id="detalhes" to ={"/detalhesProduto/"+this.props.id}>Detalhes</Button></td>
                         <td ><DeletarProduto id = {this.props.id} /></td>
                     </tr>

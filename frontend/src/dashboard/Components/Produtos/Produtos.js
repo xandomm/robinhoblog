@@ -34,7 +34,7 @@ class Produtos extends React.Component {
         return(
             <div className="concertandobugs">
             <div className="container">
-            <h1 style={{color:"black"}}>Produtos</h1>
+            <h1 style={{color:"black"}}>Textos</h1>
                 <div className="form-group">
                 <InputGroup>
                     <Input type="query" name='query' id="query" placeholder="Buscar produto"></Input>
@@ -42,14 +42,14 @@ class Produtos extends React.Component {
                     </InputGroup>
                 </div>
                 <div className="buttonsProduct">
-                    <Button className="btn" color="success" tag={Link} to='/novoProduto' id="addProduct">Novo Produto</Button>
+                    <Button className="btn" color="success" tag={Link} to='/novoProduto' id="addProduct">Novo texto</Button>
                 </div>
             <Table>
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
-                        <th>Valor</th>
+                       
                         <th></th>
                         <th>Deletar?</th>
                     </tr>

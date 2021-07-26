@@ -85,7 +85,7 @@ const Header = (props) => {
   <ListItemIcon>
     <CategoryIcon className="icons" />
   </ListItemIcon>
-  <ListItemText primary="Produtos"/>
+  <ListItemText primary="Textos"/>
 </ListItem>
 </Link>
 <Link to='/pedidos'>
@@ -93,7 +93,7 @@ const Header = (props) => {
   <ListItemIcon>
     <ShoppingCartIcon className="icons" />
   </ListItemIcon>
-  <ListItemText primary="Pedidos"/>
+  <ListItemText primary="Mensagens"/>
 </ListItem>
 </Link>
 <Link onClick={() => {sessionStorage.removeItem('secretCode'); window.location.reload()}}>

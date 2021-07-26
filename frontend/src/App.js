@@ -1,13 +1,15 @@
 
 import { BrowserRouter, Switch,Route} from 'react-router-dom' 
-
+import 'aos'
 import main from './pages/main/main'
 import dash from './dashboard/Components/Main'
 import blog from './pages/blog/blog'
 import teste from './pages/main/test'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import artigo from './pages/blog/artigo'
+import Aos from 'aos'
 export default _=>{
+    Aos.init();
     return(
         <div>
             <BrowserRouter>

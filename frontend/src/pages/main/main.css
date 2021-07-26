@@ -1,10 +1,13 @@
 .apresentacao{
-    background-color: black;
+    background-color: #111457;
     display: flex;
     align-items: center;
     justify-content: center;
    
 
+}
+.primeiralogo1{
+    background-color: #46295a;
 }
 .mediaSocial{
     display: flex;
@@ -15,9 +18,27 @@
 .butao{
     background-color: purple;
     color: white;
-    border-radius: 20px;
+    
     border-color: black;
     padding: 10px 10px 0 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+padding-top: 10px;
+
+margin-bottom: -40px;
+}
+.butao :active{
+    background-color: rgb(240, 76, 240);
+    color: white;
+    
+    border-color: black;
+    padding: 10px 10px 0 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
 padding-top: 10px;
 }
 @media(min-width: 800px){
@@ -29,16 +50,16 @@ padding-top: 10px;
     }
     .alinhar {
         background-color: black;
-       
+        align-items: center;
     }
     .primeiralogo img{
         display: flex;
    
         max-width:600px;
         height:auto;
-      
-        margin-left: 50px;
-
+        padding: 20px;
+        margin-left: 180px;
+        justify-content: center;
         overflow: hidden;
         flex-grow: 1
     }
@@ -46,28 +67,64 @@ padding-top: 10px;
         display: flex;
         width: 50%;
         flex-grow:1;
-        margin-left: 10px;
-        font-family: 'Bebas Neue', cursive;
-        color: black;
+        align-items: center;
+       padding-right:  20px;
+      
+        font-family: 'Open Sans Condensed', sans-serif;
+  
     }
     .segundalogo h1{ 
         color: purple;
-        margin-left: 20px;
+        margin-left: -20px;
         font-weight: 600;
-        text-align: start;
+        text-align: center;
         letter-spacing:2px
   
     }
-    .segundalogo Paper{ padding: 20px ;
-      margin-right: 20px;
-  
-    }
-    .segundalogo p{ padding: 20px ;
+   
+    .segundalogo h4{ padding: 20px ;
         color: #fff;
-        font-size: 20pt;
+        align-items: center;
+        text-align: center;
+        font-size: 25pt;
+    }
+      
+    .segundalogo h2{ padding: 20px ;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        font-size: 35pt;
     }
     .apresentacao{
-        height: 600px;
+      height: 80vh;
+    }
+    .carta-servicos{
+        background-color: purple;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .carta-servicos2{
+        background-color: #111457;
+        color: white;
+      display: flex;
+      flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .direita{
+        align-items: center;
+        justify-content: start;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .esqueda{
+        align-items: center;
+        color: #f2f2f2;
+    justify-content: end;
+    text-align: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
     }
 }
 @media(max-width: 800px){
@@ -76,13 +133,21 @@ padding-top: 10px;
         justify-content: center;
        
     }
+    .segundalogo h4{ padding: 20px ;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        
+    }
     .apresentacao{
         flex-direction: column;
     }
     .primeiralogo img{
         width: 100%;
         overflow: hidden;
+        margin-top: 20px;
         justify-content: center;
+        padding: 20px;
      
     }  .segundalogo{
         display: flex;
@@ -103,8 +168,37 @@ padding-top: 10px;
         color: #fff;
         font-size: 20pt;
     }
+    .carta-servicos{
+        background-color: purple;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .carta-servicos2{
+        background-color: #111457;
+        color: white;
+      display: flex;
+      flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .direita{
+        align-items: center;
+        justify-content: start;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .esqueda{
+        align-items: center;
+        color: #f3f3f3;
+    justify-content: end;
+    text-align: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
 }
 .glow {
+    font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     color: #fff;
     text-align: center;

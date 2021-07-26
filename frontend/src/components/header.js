@@ -1,5 +1,5 @@
 import './header.css'
-import logob from '../img/logoroxa.png'
+import logob from '../img/logoupgrade.png'
 
 export default (props)=>{
     return(
@@ -19,19 +19,9 @@ export default (props)=>{
         </li>
      
         <li class="nav-item navls">
-          <a class="nav-link" href="#"><h5>QUEM SOMOS NÓS</h5></a>
+          <a class="nav-link" href="#"><h5>CONTATO</h5></a>
         </li>
-        <li class="nav-item dropdown">
-
-          <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
-          <h5>NOSSOS SERVIÇOS</h5>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">CONSULTORIA PESSOAL</a></li>
-            <li><a class="dropdown-item" href="#">CONSULTORIA EMPRESARIAL</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+   
       </ul>
     </div></div>
   </div>
