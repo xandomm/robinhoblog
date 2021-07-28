@@ -6,6 +6,10 @@
    
 
 }
+.bodyform{
+    background: -webkit-linear-gradient(left, purple, #111457);
+    margin-top: -100px;
+}
 .primeiralogo1{
     background-color: #46295a;
 }
@@ -106,7 +110,7 @@ padding-top: 10px;
         font-family: 'Bebas Neue', cursive;
     }
     .carta-servicos2{
-        background-color: #111457;
+        background-color:#1114579a;
         color: white;
       display: flex;
       flex-direction: column;
@@ -176,7 +180,7 @@ padding-top: 10px;
         font-family: 'Bebas Neue', cursive;
     }
     .carta-servicos2{
-        background-color: #111457;
+        background-color: #11145781;
         color: white;
       display: flex;
       flex-direction: column;

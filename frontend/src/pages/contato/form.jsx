@@ -2,9 +2,26 @@
 import {useState} from 'react'
 import axios from 'axios'
 import './form.css'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
+
+
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 var backendURL= process.env.REACT_APP_API_URL
 
+
+
+
+const Icons = ()=>{
+    return(<div className="mediaSocial2">
+  <a href="https://www.instagram.com/upgrade.robsonrosa/"><InstagramIcon style={{ fontSize: 50,  color: "white" }}/></a>
+        <FacebookIcon style={{ fontSize: 50 ,  color: "white"}}/>
+        <LinkedInIcon style={{ fontSize: 50,  color: "white" }}/>
+
+    </div>)
+}
 export default ()=>{
        
     const [user, setUser] = useState({
@@ -39,7 +56,7 @@ export default ()=>{
     }
     console.log(user)
     
-    return(<div>
+    return(<div >
         <div class="container contact-form">
             <div class="contact-image">
                 {/* <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/> */}
@@ -66,14 +83,12 @@ export default ()=>{
                             <input type="submit" name="btnSubmit" onClick={onSubmit} class="btnContact" value="Enviar" />
                         </div>
                     </div>
-                    <div class="col-md-6">
-                            <textarea name="mensagem" class="form-control" placeholder="Digite sua mensagem!" required onChange={handleOnChange} value={user.mensagem} style={{width: '100%', height: '150px'}}></textarea>
+                    <div class="col-md-6 mediaSocial2">
+                          <Icons/>
                         </div>
                 </div>
 
             </form>
-<br/>
-
 </div>
     </div>)
 }

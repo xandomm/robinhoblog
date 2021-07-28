@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         AOS.refresh();
       }, []);
     const classes = useStyles();
-    return(<div>
+    return(<div className="bodyform">
         <Header/>
 <div className="apresentacao">
 <div className="segundalogo" ><div  className={[classes.root, 'alinhar']}>

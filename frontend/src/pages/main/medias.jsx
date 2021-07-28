@@ -11,7 +11,7 @@ import './main.css'
 
 export default ()=>{
     return(<div className="mediaSocial">
-        <InstagramIcon style={{ fontSize: 50,  color: "white" }}/>
+         <a href="https://www.instagram.com/upgrade.robsonrosa/"><InstagramIcon style={{ fontSize: 50,  color: "white" }}/></a>
         <FacebookIcon style={{ fontSize: 50 ,  color: "white"}}/>
         <LinkedInIcon style={{ fontSize: 50,  color: "white" }}/>
 

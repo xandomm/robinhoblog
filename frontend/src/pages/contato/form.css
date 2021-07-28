@@ -1,6 +1,4 @@
-body{
-    background: -webkit-linear-gradient(left, purple, #111457);
-}
+
 .contact-form{
     background: #fff;
     margin-top: 10%;
@@ -32,6 +30,15 @@ body{
     color:  #111457;
     ;
 }
+.mediaSocial2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+    justify-content: center;
+
+}
 .contact-form .btnContact {
     width: 50%;
     border: none;
@@ -53,8 +60,7 @@ body{
     cursor: pointer;
 }
 @media(max-width: 800px){
-    .enviar{
-        margin-top: 200px;
-        order: 1
+    .mediaSocial2{
+        display: none;
     }
 }
