@@ -46,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
         Atuo a mais de 5 anos no marketing como consultor estratégico e na criação de conteúdo como fotos, vídeos, filmes etc.
 
 Investi nesses últimos anos em cursos e pós graduação das universidades mais renomadas no marketing do Brasil e exterior como: FGV, PUC Pr., Barça Universitas Hub da Espanha, etc...
-
+<br/>
+fui bancário e decidi abrir a Upgrade para ajudar as empresas a desenvolver o marketing de dentro pra fora, através de estratégias, planejamento e metas. o marketing digital a vitrine e porta de vendas de tudo isso
         </h4>
      
   

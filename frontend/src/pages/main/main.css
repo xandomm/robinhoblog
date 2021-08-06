@@ -8,7 +8,7 @@
 }
 .bodyform{
     background: -webkit-linear-gradient(left, purple, #111457);
-    margin-top: -100px;
+
 }
 .primeiralogo1{
     background-color: #46295a;
@@ -90,7 +90,7 @@ padding-top: 10px;
         color: #fff;
         align-items: center;
         text-align: center;
-        font-size: 25pt;
+        font-size: 18pt;
     }
       
     .segundalogo h2{ padding: 20px ;
